@@ -1060,7 +1060,6 @@ public class GameScreen extends MetaScreen {
 					   System.out.println("GAMESPEED IS "+GAMESPEED);
 				   }
 			   }
-			   prefs.flush();
 			   game.setScreen(new TitleScreen(game, true));
 			   
 
@@ -1173,11 +1172,6 @@ public class GameScreen extends MetaScreen {
 		   }
 		   if (pod_ydot<=-1){
 			   pod_ydot=-1;
-		   }
-		   
-		   if (Gdx.input.isKeyPressed(Keys.SPACE)){
-			   pod_xdot=0;
-			   pod_ydot=0;
 		   }
 		   
 		   
