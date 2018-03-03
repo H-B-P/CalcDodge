@@ -87,7 +87,7 @@ public class MetaScreen implements Screen { //Regarding implementing vs extendin
 			prefs.flush();
 		}
 		if (!prefs.contains("Game Speed")){
-		    prefs.putFloat("Game Speed", 1.0f);
+		    prefs.putFloat("Game Speed", 100.0f);
 			prefs.flush();
 		}
 		if (!prefs.contains("Flickering")){
